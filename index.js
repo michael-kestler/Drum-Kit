@@ -1,1 +1,5 @@
-alert("Welcome to the Layer Cake");
+document.querySelector("button").addEventListener();
+
+function handleClick(){
+  alert("I got clicke");
+}
