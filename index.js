@@ -1,5 +1,7 @@
 
 
+//detecting button press
+
 for (var i = 0; i<document.querySelectorAll(".drum").length; i++){
 
     document.querySelectorAll(".drum") [i].addEventListener("click", function() {
@@ -9,10 +11,10 @@ for (var i = 0; i<document.querySelectorAll(".drum").length; i++){
 
 }
 
+//detecting keypress
 document.addEventListener("keypress", function(event) {
   makeSound(event.key)
 });
-
 
 
 function makeSound(event){
